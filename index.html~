@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -18,22 +19,28 @@
     <![endif]-->
   </head>
   <body>
-  <div class="container">
+  <div class="container body-container">
     <div class="header">
         <div class="navbar-header">
-	  <img></img>
-          <a class="navbar-brand" href="#">Meta Launch</a>
+	  <img id="logo" src="images/logo.png">
+	  <div class="navbar-brand">
+            <p id="font16">Meta Launch</p>
+	    <p id="font11">THINK BUILD LAUNCH</p>
+	  </div>
         </div>
-        <ul class="navbar navbar-nav pull-right">
-	  <li class="active"><a href="#">Home</a></li>
-          <li class="active"><a class="" href="#">Features</a></li>            
-          <li class="active"><a class="" href="#">Contact Us</a></li>
+	<div class="navbar-collapse collapse">
+        <ul class="navbar navbar-nav navbar-right navbar-brand">
+	  <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>            
+          <li><a href="#">Contact Us</a></li>
+	</ul>
+	</div>
     </div><!-- header -->
 
-    <div class="posters">
+    <div class="poster">
       <div class="container">
 	<img></img>
-	<h1>META LAUNCH: THINK BUILD LAUNCH</h1>
+	<h1>META LAUNCH</h1>
         <h2>Launch a working app in a day</h2>
         <p>Share your app idea. We will create a working application for you in under 24 hours. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed. Register now for FREE trial</p>
         <p><a class="btn btn-primary btn-lg" role="button">Contact Us &raquo;</a></p>
@@ -123,11 +130,11 @@
         <footer>
           <p>© Company 2014</p>
 	  <p class="pull-right">
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 10px; height: 10px;"></a>
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 10px; height: 10px;"></a>
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 10px; height: 10px;"></a>
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 10px; height: 10px;"></a>
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 10px; height: 10px;"></a>
+	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
           </p>
         </footer>
       </div>
