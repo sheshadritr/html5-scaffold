@@ -21,7 +21,7 @@
   <div class="container">
     <div class="header">
         <div class="navbar-header">
-	  <img src="images/logo.png">
+	  <img></img>
           <a class="navbar-brand" href="#">Meta Launch</a>
         </div>
         <ul class="navbar navbar-nav pull-right">
