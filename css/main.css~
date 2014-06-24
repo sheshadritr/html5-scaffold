@@ -8,34 +8,6 @@ body {
   font-family: DejaVu Sans;
 }
 
-h1 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
-
-h5 {
-  text-align: center;
-}
-
-p {
-  text-align: center;
-}
-
-#white {
-  color: white;
-  text-align: left;
-}
-
-#font11 {
-  font-size: 11px;
-}
-
-#font18 {
-  font-size: 18px;
-}
 
 #logo {
   float: left;
@@ -43,42 +15,85 @@ p {
   height: 50px;
 }
 
+#screenshot-container {
+  background-color: #6EF562;
+  padding: 30px;
+  padding-top: 5px;
+}
+
+#crafted-container {
+  padding: 30px;
+}
+
+#contactus-container {
+  padding: 30px;
+  background-color: #064073;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.green-text {
+  color: #1A7316;
+}
+
+.lightgreen-text {
+  color: #6EF562;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.tag-font {
+  font-size: 10px;
+}
+
+.font
+{
+  color: #0CF22F;
+  font-weight:bold;
+}
+
+.font1 {
+  color: #7D7D7D;
+}
+
+.font3 {
+  color: #000066;
+}
+
+
 .white-bg {
   background-color: #ffffff;
 }
 
 .black-bg {
   background-color: #000000;
+  border-color: #000000;
 }
 
 .green-bg {
   background-color: #6EF562;
+  border-color: #6EF562
 }
 
 .navyblue-bg{
   background-color: #232D59;
 }
 
-.dark-navyblue-bg{
+.footer-bg{
   background-color: #0C1330;
 }
 
-.container {
-  width: 100%;
-  padding: 0px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
-.header {
-  width: 100%;
-  padding: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #1C2040; 
-}
-
-.navbar-brand {
+.navbar-custom {
   padding: 0px;
   padding-left: 20px;
   float: left;
@@ -90,19 +105,33 @@ p {
   width: 400px;
 }
 
-#poster {
-  margin-top: 30px;
+.navbar-container {
   margin-bottom: 0px;
-  margin-left: 20%;
-  margin-right: 20%;
+  background-color: #1C2040;
 }
 
-#poster-container2 {
-  background-image: url("/home/hasher/apps/assignments/hu-webdesign/images/iphone_white_angle1.png");
-  display: block;
-  height: 500px;
+.center-align {
+  position: center;
+  text-align: center;
 }
 
+.vertical-margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.screenshot {
+  width:150px;	
+  height:150px;
+  border-color:white;
+  border-width:3px;
+  border-style:solid;
+}
+
+.crafted-screenshot {
+  width:400px;	
+  height:200px;
+}
 
 
 

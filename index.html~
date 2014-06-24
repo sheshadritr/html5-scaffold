@@ -19,22 +19,24 @@
     <![endif]-->
   </head>
   <body>
-  <div class="container black-bg">
-    <div class="header container">
+  <div class="container">
+    <div id="Navbar" class="navbar-inverse navbar-fixed-top nav-bg" role="navigation">
+      <div class="container">
         <div class="navbar-header">
 	  <img id="logo" src="images/logo.png">
 	  <div class="navbar-brand">
-            <p id="font18 white">Meta Launch</p>
-	    <p id="font11 white">THINK BUILD LAUNCH</p>
+            <h5 class="white-text">Meta Launch</h5>
+	    <p class="white-text tag-font">THINK BUILD LAUNCH</p>
 	  </div>
         </div>
 	<div class="navbar-collapse collapse">
-        <ul class="navbar navbar-nav navbar-right navbar-brand">
+        <ul class="nav navbar-nav navbar-right">
 	  <li><a href="#">Home</a></li>
           <li><a href="#">Features</a></li>            
           <li><a href="#">Contact Us</a></li>
 	</ul>
 	</div>
+      </div>
     </div><!-- header -->
 
 
@@ -86,37 +88,37 @@
     <div class="container white-bg">
       <div class="">
  	  <h5>FEATURES</h5>
-	  <h2>Every Feature Implemented With Care</h2>
+	  <h3>Every Feature Implemented With Care</h3>
       </div>
       <div class="row">
 	<div class="col-md-4">
 	  <img id="">
- 	  <h3>Free prototype</h3>
+ 	  <h5>Free prototype</h5>
 	  <p>We will build a prototype for you. Free of cost. Continue to build further only if you like it. We do so because we are confident in our ability and your app idea!.</p>
 	</div>
         <div class="col-md-4">
 	  <img id="">
- 	  <h3>Export</h3>
+ 	  <h5>Export</h5>
 	  <p>If have an internal team or a group of developers you work with, you can. Export the prototype and we will ship the code and data, ready to further developed on.</p>
 	</div>
         <div class="col-md-4">
  	  <img class="">
-	  <h3>Portability</h3>
+	  <h5>Portability</h5>
 	  <p>Apart from being able to export in developer friendly, we also support iOS apps, Android apps and chrome apps out of the box. You can also request export in a framework of your choice.</p>
 	</div>
         <div class="col-md-4">
 	  <img class="">
- 	  <h3>No Vendor Tie</h3>
+ 	  <h5>No Vendor Tie</h5>
 	  <p>You own the application logic and data and can export it to develop further on it, or just host it on your own. Our process is built around that assumption and provides you complete flexibility.</p>
 	</div>
 	<div class="col-md-4">
 	  <img class="">
- 	  <h3>Portability</h3>
+ 	  <h5>Portability</h5>
 	  <p>Apart from being able to export in developer friendly, we also support iOS apps, Android apps and chrome apps out of the box. You can also request export in a framework of your choice.</p>
 	</div>
         <div class="col-md-4">
 	  <img class="">
- 	  <h3>No Vendor Tie</h3>
+ 	  <h5>No Vendor Tie</h5>
 	  <p>You own the application logic and data and can export it to develop further on it, or just host it on your own. Our process is built around that assumption and provides you complete flexibility.</p>
 	</div>
       </div><!-- row -->
@@ -124,8 +126,8 @@
 
     <div class="container green-bg">
       <div class="">
- 	  <h3>SCREENSHOTS</h3>
-	  <h1>Check Out Our App In Action</h1>
+ 	  <h5>SCREENSHOTS</h5>
+	  <h3>Check Out Our App In Action</h3>
       </div>
       <div class="row">
 	<div class="col-md-3">
@@ -145,17 +147,17 @@
 
     <div id="poster-container2">
       <div class="container">
-	<h3>CRAFTED BEAUTIFULLY</h3>
-        <h2>Attention To Every Last Detail</h2>
-        <p><a class="btn btn-primary btn-lg" role="button">Contact Us &raquo;</a></p>
+	<h5>CRAFTED BEAUTIFULLY</h5>
+        <h3>Attention To Every Last Detail</h3>
+        <p><a class="btn btn-primary btn-lg green-bg" role="button">Contact Us &raquo;</a></p>
       </div>
     </div>
 
     <div class="">
       <div class="container navyblue-bg">
-	<h3>CONTACT US</h3>
-        <h2>Tell Us What Is On Your Mind</h2>
-        <p><a class="btn btn-primary btn-lg" role="button">Contact Us &raquo;</a></p>
+	<h5 class="green-text">CONTACT US</h5>
+        <h3 class="white-text">Tell Us What Is On Your Mind</h3>
+        <p><a class="btn btn-primary btn-lg green-bg" role="button">Contact Us &raquo;</a></p>
       </div>
     </div>
 
