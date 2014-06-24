@@ -19,13 +19,13 @@
     <![endif]-->
   </head>
   <body>
-  <div class="container body-container">
-    <div class="header">
+  <div class="container black-bg">
+    <div class="header container">
         <div class="navbar-header">
 	  <img id="logo" src="images/logo.png">
 	  <div class="navbar-brand">
-            <p id="font16">Meta Launch</p>
-	    <p id="font11">THINK BUILD LAUNCH</p>
+            <p id="font18 white">Meta Launch</p>
+	    <p id="font11 white">THINK BUILD LAUNCH</p>
 	  </div>
         </div>
 	<div class="navbar-collapse collapse">
@@ -37,79 +37,114 @@
 	</div>
     </div><!-- header -->
 
-    <div class="poster">
-      <div class="container">
-	<img></img>
-	<h1>META LAUNCH</h1>
-        <h2>Launch a working app in a day</h2>
-        <p>Share your app idea. We will create a working application for you in under 24 hours. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed. Register now for FREE trial</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Contact Us &raquo;</a></p>
-      </div>
-    </div>
 
-    <div class="container">
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img  src="images/bg-1.jpg" alt="First slide" >
+          <div class="carousel-caption">
+                 <h2>META LAUNCH</h2> 
+          	 <h4>Launch a working app in a day</h4>
+             	 <p>Share your app idea. We will create a working application for you in under 24 hours.<br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint<br /> possimus distinctio tenetur in magni animi pariatur sed. Register now for FREE trial</p>
+           	<p><a class="btn btn-lg btn-primary" href="#" role="button">contact us </a></p>
+          </div>
+    	</div>
+        <div class="item">
+          <img  src="images/bg-2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+                 <h2>META LAUNCH</h2> 
+          	 <h4>Launch a working app in a day</h4>
+             	 <p>Share your app idea. We will create a working application for you in under 24 hours.<br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint<br /> possimus distinctio tenetur in magni animi pariatur sed. Register now for FREE trial</p>
+           	<p><a class="btn btn-lg btn-primary" href="#" role="button">contact us </a></p>              
+            </div>
+         </div>
+       </div>
+       <div class="item">
+         <img src="images/bg-3.jpg" alt="Third slide" >
+         <div class="container">
+           <div class="carousel-caption">
+                 <h2>META LAUNCH</h2> 
+          	 <h4>Launch a working app in a day</h4>
+             	 <p>Share your app idea. We will create a working application for you in under 24 hours.<br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint<br /> possimus distinctio tenetur in magni animi pariatur sed. Register now for FREE trial</p>
+           	<p><a class="btn btn-lg btn-primary" href="#" role="button">contact us </a></p>
+           </div>
+         </div>
+       </div>
+     </div><a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+  </div><!-- /.carousel -->
+
+    <div class="container white-bg">
       <div class="">
- 	  <h3>FEATURES</h3>
+ 	  <h5>FEATURES</h5>
 	  <h1>Every Feature Implemented With Care</h1>
       </div>
       <div class="row">
 	<div class="col-md-4">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img id="">
  	  <h3>Free prototype</h3>
 	  <p>We will build a prototype for you. Free of cost. Continue to build further only if you like it. We do so because we are confident in our ability and your app idea!.</p>
 	</div>
         <div class="col-md-4">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img id="">
  	  <h3>Export</h3>
 	  <p>If have an internal team or a group of developers you work with, you can. Export the prototype and we will ship the code and data, ready to further developed on.</p>
 	</div>
         <div class="col-md-4">
- 	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+ 	  <img class="">
 	  <h3>Portability</h3>
 	  <p>Apart from being able to export in developer friendly, we also support iOS apps, Android apps and chrome apps out of the box. You can also request export in a framework of your choice.</p>
 	</div>
         <div class="col-md-4">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img class="">
  	  <h3>No Vendor Tie</h3>
 	  <p>You own the application logic and data and can export it to develop further on it, or just host it on your own. Our process is built around that assumption and provides you complete flexibility.</p>
 	</div>
 	<div class="col-md-4">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img class="">
  	  <h3>Portability</h3>
 	  <p>Apart from being able to export in developer friendly, we also support iOS apps, Android apps and chrome apps out of the box. You can also request export in a framework of your choice.</p>
 	</div>
         <div class="col-md-4">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img class="">
  	  <h3>No Vendor Tie</h3>
 	  <p>You own the application logic and data and can export it to develop further on it, or just host it on your own. Our process is built around that assumption and provides you complete flexibility.</p>
 	</div>
       </div><!-- row -->
     </div><!-- container -->
 
-    <div class="container">
+    <div class="container green-bg">
       <div class="">
  	  <h3>SCREENSHOTS</h3>
 	  <h1>Check Out Our App In Action</h1>
       </div>
       <div class="row">
 	<div class="col-md-3">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img id="" src="images/screenshot1.png" style="width: 80%; height: 80%;">
 	</div>
 	<div class="col-md-3">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img id="" src="images/screenshot2.png" style="width: 80%; height: 80%;">
 	</div>
 	<div class="col-md-3">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img id="" src="images/screenshot3.png" style="width: 80%; height: 80%;">
 	</div>
 	<div class="col-md-3">
-	  <img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+	  <img id="" src="images/screenshot1.png" style="width: 80%; height: 80%;">
 	</div>
       </div><!-- row -->
     </div><!-- container -->
 
-    <div class="">
+    <div id="poster-container2">
       <div class="container">
-	<img class="img-circle" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
 	<h3>CRAFTED BEAUTIFULLY</h3>
         <h2>Attention To Every Last Detail</h2>
         <p><a class="btn btn-primary btn-lg" role="button">Contact Us &raquo;</a></p>
@@ -117,8 +152,7 @@
     </div>
 
     <div class="">
-      <div class="container">
-	<img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 140px; height: 140px;">
+      <div class="container navyblue-bg">
 	<h3>CONTACT US</h3>
         <h2>Tell Us What Is On Your Mind</h2>
         <p><a class="btn btn-primary btn-lg" role="button">Contact Us &raquo;</a></p>
@@ -126,15 +160,15 @@
     </div>
 
     <div class="">
-      <div class="container">
+      <div class="container dark-navyblue-bg">
         <footer>
           <p>© Company 2014</p>
 	  <p class="pull-right">
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
-	    <a href="#"><img class="" data-src="holder.js/140x140" alt="140x140" src="data:image/svg" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" style="width: 20px; height: 20px;"></a>
+	    <a href="#"><img class="" style="width: 20px; height: 20px;"></a>
           </p>
         </footer>
       </div>
