@@ -30,6 +30,11 @@ body {
   background-color: #064073;
 }
 
+#footer-container {
+  padding: 10px;
+  background-color: #0C1330;
+}
+
 
 .text-center {
   text-align: center;
@@ -52,7 +57,7 @@ body {
 }
 
 .tag-font {
-  font-size: 10px;
+  font-size: 1.0em;
 }
 
 .font
@@ -65,7 +70,7 @@ body {
   color: #7D7D7D;
 }
 
-.font3 {
+.footer-text {
   color: #000066;
 }
 
@@ -87,11 +92,6 @@ body {
 .navyblue-bg{
   background-color: #232D59;
 }
-
-.footer-bg{
-  background-color: #0C1330;
-}
-
 
 .navbar-custom {
   padding: 0px;
@@ -133,5 +133,13 @@ body {
   height:200px;
 }
 
+.footer-copyright {
+  width: 400px;
+  margin: 0px;
+}
 
-
+.footer-links {
+  width: 400px;
+  float: right;
+  margin: 0px;
+}

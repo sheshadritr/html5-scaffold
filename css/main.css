@@ -57,7 +57,7 @@ body {
 }
 
 .tag-font {
-  font-size: 10px;
+  font-size: 0.5em;
 }
 
 .font
@@ -92,9 +92,6 @@ body {
 .navyblue-bg{
   background-color: #232D59;
 }
-
-
-
 
 .navbar-custom {
   padding: 0px;
@@ -136,5 +133,13 @@ body {
   height:200px;
 }
 
+.footer-copyright {
+  width: 400px;
+  margin: 0px;
+}
 
-
+.footer-links {
+  width: 400px;
+  float: right;
+  margin: 0px;
+}
